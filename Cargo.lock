@@ -5,3 +5,11 @@ version = 3
 [[package]]
 name = "curly-happiness"
 version = "0.1.0"
+
+[[package]]
+name = "curly-world-plugin"
+version = "0.1.0"
+
+[[package]]
+name = "editor"
+version = "0.1.0"
