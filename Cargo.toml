@@ -1,12 +1,23 @@
 [workspace]
-members = [ "editor", "curly-world-plugin"]
+members = [ "editor-plugin", "curly-world-plugin"]
 
 [workspace.package]
 version = "0.1.0"
 authors = ["HaNaK0"]
 description = "Ai project in bevy"
 
+[workspace.dependencies]
+bevy = "0.9.1"
+curly-world-plugin = { path = "curly-world-plugin"}
+
 [package]
 name = "curly-happiness"
 version = "0.1.0"
 edition = "2021"
+default-run = "game"
+
+[dependencies]
+bevy = "0.9.1"
+curly-world-plugin = { path = "curly-world-plugin"}
+
+
